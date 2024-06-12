@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px) {
+    body{
+    background-color: #f4f6e9;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    .logo{
+        padding: 6px 0;
+    }
+
+    .logo span{
+        font-size: 1rem;
+    }
+
+    .logo img{
+        width: 16px;
+    }
+
+    ul li{
+        font-size: 0.9rem;
+    }
+
+    .container{
+        font-size: 0.8rem;
+    }
+
+}

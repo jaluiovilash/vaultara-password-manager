@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaultara | Your Personal Password Manager</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h3>Vaultara</h3>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <p>Welcome to Vaultara, your reliable companion for secure password management. Experience simplicity and
+                safety with our basic yet effective HTML, CSS, and JavaScript interface. Start protecting your digital
+                life with ease and confidence today!
+            </p>
+            <br>
+
+            <h2>Your Passwords</h2>
+            <table>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Website</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>kisaanbharat.com</td>
+                    <td>jaluiovilash</td>
+                    <td>123456789</td>
+                </tr>
+            </table>
+
+            <h2>Add a Password</h2>
+
+            <form action="/submit" method="post" class="details">
+                <!-- Text input for username -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+
+                <!-- Password input -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn">
+                    Submit
+                </button>
+            </form>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
