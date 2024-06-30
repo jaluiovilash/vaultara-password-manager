@@ -8,6 +8,10 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Bootstrap Icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="images/code.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -26,32 +30,32 @@
 
     <main>
         <div class="container">
-            <p>Welcome to Vaultara, your reliable companion for secure password management. Experience simplicity and
+            <p id="para">Welcome to Vaultara, your reliable companion for secure password management. Experience
+                simplicity and
                 safety with our basic yet effective HTML, CSS, and JavaScript interface. Start protecting your digital
                 life with ease and confidence today!
             </p>
             <br>
 
-            <h2>Your Passwords</h2>
-            <table>
+            <h2>Your Password <span id="alert">(Copied!)</span></h2>
+            <table id="tablee">
                 <tr>
-                    <th>Sr. No.</th>
+                    <!-- <th>Sr. No.</th> -->
                     <th>Website</th>
                     <th>Username</th>
                     <th>Password</th>
                     <th>Delete</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>kisaanbharat.com</td>
-                    <td>jaluiovilash</td>
-                    <td>123456789</td>
                 </tr>
             </table>
 
             <h2>Add a Password</h2>
 
             <form action="/submit" method="post" class="details">
+                <!-- Text input for username -->
+                <label for="website">Website: </label>
+                <input type="text" id="website" name="website" required>
+                <br><br>
+
                 <!-- Text input for username -->
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
@@ -69,6 +73,20 @@
             </form>
         </div>
 
+        <!-- footer section -->
+
+        <footer class="footer">
+            <div class="social-links">
+                <a href="#" class="bi bi-facebook"></a>
+                <a href="#" class="bi bi-instagram"></a>
+                <a href="#" class="bi bi-github"></a>
+                <a href="#" class="bi bi-twitter"></a>
+                <a href="#" class="bi bi-linkedin"></a>
+            </div>
+            <div class="rightsfooter">
+                Copyright &#0169 2024 www.vaultara.com | All rights reserved
+            </div>
+        </footer>
     </main>
 
     <script src="script.js"></script>
