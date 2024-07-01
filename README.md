@@ -22,7 +22,7 @@ Vaultara is a simple yet effective password manager built using HTML, CSS, and J
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/vaultara.git
+git clone https://github.com/jaluiovilash/vaultara-password-manager.git
 ```
 
 Open `index.html` in your web browser to start using Vaultara.
