@@ -1,30 +1,86 @@
 @media only screen and (max-width: 600px) {
-    body{
-    background-color: #f4f6e9;
-    }
 
-    nav{
+    /* header section */
+    nav {
         flex-direction: column;
     }
 
-    .logo{
+    .logo {
         padding: 6px 0;
     }
 
-    .logo span{
+    .logo span {
         font-size: 1rem;
     }
 
-    .logo img{
+    .logo img {
         width: 16px;
     }
 
-    ul li{
+    ul li {
         font-size: 0.9rem;
     }
 
-    .container{
+    /* main body */
+
+    .container {
+        font-size: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 80vw;
+        margin: 23px auto;
+    }
+
+    #para {
+        font-size: 0.6rem;
+    }
+
+    table,
+    td,
+    tr {
+        padding: 5px;
+    }
+
+    td img {
+        width: 12px;
+        height: auto;
+        position: relative;
+        bottom: 7px;
+    }
+
+    .bi-trash::before {
         font-size: 0.8rem;
+        margin-right: 2px;
+    }
+
+    .details input {
+        width: 200px;
+    }
+
+    .btnsm {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+        padding: 5px 10px;
+        border-radius: 8px;
+        font-weight: 600;
+    }
+
+    /* footer section */
+    footer {
+        background-color: #002b57;
+        padding: 20px;
+        text-align: center;
+        font-size: 0.7rem;
+        margin-top: 40px;
+    }
+
+    .social-links a {
+        height: 30px;
+        width: 30px;
+        margin: 10px;
     }
 
 }
